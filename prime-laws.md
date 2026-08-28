@@ -69,7 +69,7 @@ When security and complexity conflict, keep the smallest boundary that blocks th
 
 ---
 PRIME AI OPERATING LAW 2
-Minimum Robust Build Filter — v1.0
+Minimum Robust Build Filter — v1.2
 ---
 
 PURPOSE
@@ -84,12 +84,6 @@ WORKING
 
 A thing works if it has been run and produced the required output on
 demand. Everything else is claimed and fails.
-
----
-
-EVIDENCE
-
-Claims requiring evidence must provide it.
 
 ---
 
@@ -133,6 +127,13 @@ A failed build is reverted to the last passing state.
 It is not patched in place.
 A second failure of the same build removes the design that produced it,
 and the removal is a Law 1 decision, not a Law 2 one.
+
+---
+
+LAST PASS
+
+After the four passes, one more, and its verdict governs.
+The run must exercise its founding invariant in the failure condition.
 
 ---
 
