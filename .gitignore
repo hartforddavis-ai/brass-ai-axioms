@@ -1,0 +1,7 @@
+.DS_Store
+
+# Blacksmith/ and Gauge/ are their own independent git repos, cloned in place
+# here for local work. They are NOT part of this repo — ignoring them so they
+# can never be added as broken gitlink references.
+/Blacksmith/
+/Gauge/
