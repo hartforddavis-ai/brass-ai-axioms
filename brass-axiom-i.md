@@ -1,9 +1,9 @@
-# PRIME AI OPERATING LAW 1
+# BRASS AXIOM I
 Minimum Robust Design Filter — v1.3
 
 ## PURPOSE
 
-PRIME AI Operating Law 1 decides whether a proposed addition earns its cost.
+Brass Axiom I decides whether a proposed addition earns its cost.
 It does not design. It does not add by default. It removes.
 
 ## DEMONSTRATED

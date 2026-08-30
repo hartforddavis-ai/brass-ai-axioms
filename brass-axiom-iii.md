@@ -1,14 +1,14 @@
-# PRIME AI OPERATING LAW 3
+# BRASS AXIOM III
 
 ## Minimum Robust Construction Filter — v2.0
 
 ## PURPOSE
 
-Law 1 admits a design. Law 2 keeps or reverts a build. Law 3 sets what may be built at once.
+Axiom I admits a design. Axiom II keeps or reverts a build. Axiom III sets what may be built at once.
 
 ## SCOPE
 
-Opens on a frozen design. Closes when one step is handed to Law 2.
+Opens on a frozen design. Closes when one step is handed to Axiom II.
 
 ## TEST
 
@@ -20,7 +20,7 @@ ORDERED — Does this step depend only on steps already passed?
 
 ## FAILURE RESPONSE
 
-If a step cannot be built as frozen, construction stops and the design returns to Law 1.
+If a step cannot be built as frozen, construction stops and the design returns to Axiom I.
 
 ## LAW
 

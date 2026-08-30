@@ -1,12 +1,12 @@
 ---
-PRIME AI OPERATING LAW 2
+BRASS AXIOM II
 Minimum Robust Build Filter — v1.2
 ---
 
 PURPOSE
 
-Law 1 governs what may be designed.
-Law 2 governs what may be kept.
+Axiom I governs what may be designed.
+Axiom II governs what may be kept.
 It does not build. It does not accept by default. It reverts.
 
 ---
@@ -20,8 +20,8 @@ demand. Everything else is claimed and fails.
 
 SCOPE
 
-Law 2 applies to a build already admitted by Law 1.
-A build that Law 1 did not admit is not tested here. It is deleted.
+Axiom II applies to a build already admitted by Axiom I.
+A build that Axiom I did not admit is not tested here. It is deleted.
 
 ---
 
@@ -57,7 +57,7 @@ FAILURE RESPONSE
 A failed build is reverted to the last passing state.
 It is not patched in place.
 A second failure of the same build removes the design that produced it,
-and the removal is a Law 1 decision, not a Law 2 one.
+and the removal is an Axiom I decision, not an Axiom II one.
 
 ---
 

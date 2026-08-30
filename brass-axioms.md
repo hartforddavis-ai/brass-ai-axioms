@@ -1,21 +1,21 @@
-# THE PRIME AI OPERATING LAWS
+# THE BRASS AXIOMS
 
 Paste this whole file into your coding agent's rules file — `CLAUDE.md`,
 `.cursorrules`, or `AGENTS.md`. Three filters, applied in order: what may be
-proposed (Law 1), what may be kept once built (Law 2), how much may be under
-construction at once (Law 3). Default is REJECT.
+proposed (Axiom I), what may be kept once built (Axiom II), how much may be under
+construction at once (Axiom III). Default is REJECT.
 
-The three Law texts below are byte-exact copies of `prime-law-1.md`,
-`prime-law-2.md`, and `prime-law-3.md`. Not paraphrased for this file.
+The three Axiom texts below are byte-exact copies of `brass-axiom-i.md`,
+`brass-axiom-ii.md`, and `brass-axiom-iii.md`. Not paraphrased for this file.
 
 ---
 
-# PRIME AI OPERATING LAW 1
+# BRASS AXIOM I
 Minimum Robust Design Filter — v1.3
 
 ## PURPOSE
 
-PRIME AI Operating Law 1 decides whether a proposed addition earns its cost.
+Brass Axiom I decides whether a proposed addition earns its cost.
 It does not design. It does not add by default. It removes.
 
 ## DEMONSTRATED
@@ -68,14 +68,14 @@ When security and complexity conflict, keep the smallest boundary that blocks th
 ---
 
 ---
-PRIME AI OPERATING LAW 2
+BRASS AXIOM II
 Minimum Robust Build Filter — v1.2
 ---
 
 PURPOSE
 
-Law 1 governs what may be designed.
-Law 2 governs what may be kept.
+Axiom I governs what may be designed.
+Axiom II governs what may be kept.
 It does not build. It does not accept by default. It reverts.
 
 ---
@@ -89,8 +89,8 @@ demand. Everything else is claimed and fails.
 
 SCOPE
 
-Law 2 applies to a build already admitted by Law 1.
-A build that Law 1 did not admit is not tested here. It is deleted.
+Axiom II applies to a build already admitted by Axiom I.
+A build that Axiom I did not admit is not tested here. It is deleted.
 
 ---
 
@@ -126,7 +126,7 @@ FAILURE RESPONSE
 A failed build is reverted to the last passing state.
 It is not patched in place.
 A second failure of the same build removes the design that produced it,
-and the removal is a Law 1 decision, not a Law 2 one.
+and the removal is an Axiom I decision, not an Axiom II one.
 
 ---
 
@@ -151,17 +151,17 @@ If it cannot be deleted, the dependency is the defect.
 
 ---
 
-# PRIME AI OPERATING LAW 3
+# BRASS AXIOM III
 
 ## Minimum Robust Construction Filter — v2.0
 
 ## PURPOSE
 
-Law 1 admits a design. Law 2 keeps or reverts a build. Law 3 sets what may be built at once.
+Axiom I admits a design. Axiom II keeps or reverts a build. Axiom III sets what may be built at once.
 
 ## SCOPE
 
-Opens on a frozen design. Closes when one step is handed to Law 2.
+Opens on a frozen design. Closes when one step is handed to Axiom II.
 
 ## TEST
 
@@ -173,7 +173,7 @@ ORDERED — Does this step depend only on steps already passed?
 
 ## FAILURE RESPONSE
 
-If a step cannot be built as frozen, construction stops and the design returns to Law 1.
+If a step cannot be built as frozen, construction stops and the design returns to Axiom I.
 
 ## LAW
 

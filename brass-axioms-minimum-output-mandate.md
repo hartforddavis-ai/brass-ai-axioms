@@ -1,7 +1,7 @@
-# PRIME MINIMUM OUTPUT MANDATE
+# BRASS AXIOMS MINIMUM OUTPUT MANDATE
 
-Copied byte-exact. A companion rule to the three Laws, not a fourth Law: the
-Laws govern whether a decision is valid, this governs the shape of the
+Copied byte-exact. A companion rule to the three Axioms, not a fourth Axiom: the
+Axioms govern whether a decision is valid, this governs the shape of the
 response that reports it.
 
 Produce the smallest valid response satisfying the explicit request. Never

@@ -1,16 +1,16 @@
-# THE PRIME AI OPERATING LAWS — ALGORITHMIC FORM
+# THE BRASS AXIOMS — ALGORITHMIC FORM
 
-Copied byte-exact from PRIME's frozen representation pressure test.
+Copied byte-exact from the Brass Axioms' frozen representation pressure test.
 Not retyped, not summarised, not repaired.
 
-Same three Laws as `prime-law-1.md` / `prime-law-2.md` / `prime-law-3.md`,
+Same three Axioms as `brass-axiom-i.md` / `brass-axiom-ii.md` / `brass-axiom-iii.md`,
 in a numbered-step form instead of prose. Calibration-tested across multiple
 models at 6/6 (`calib_govern2`, see the source repo's `calib/LEDGER.md`) —
 this representation is not a paraphrase invented for this file, it's the one
 that was run and scored.
 
-Note: the prose `prime-law-2.md` has since advanced to v1.2, which adds a
-`LAST PASS` step after the four Law 2 passes. This algorithmic form is left
+Note: the prose `brass-axiom-ii.md` has since advanced to v1.2, which adds a
+`LAST PASS` step after the four Axiom II passes. This algorithmic form is left
 as it was scored and does not include that step; steps 15–17 reflect the
 Law 2 that was run through `calib_govern2`.
 
