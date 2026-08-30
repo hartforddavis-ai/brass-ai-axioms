@@ -1,0 +1,33 @@
+# Shearpin
+
+> Shearpin is four free tools that find the point the code stops doing what you asked.
+
+An AI coding agent reports that it is done. The code is almost right, so it ships.
+It fails later. Shearpin checks the agent's output against the request that produced
+it, and shows the exact point where the two stop matching.
+
+Works with Cursor, Claude Code, GitHub Copilot, and any LLM-driven coding agent.
+No install. Free and open source.
+
+## The four tools
+
+- [The Brass Axioms](https://github.com/hartforddavis-ai/shearpin): Live. Three rules an agent cannot drift past, pad past, or fake past. One paste into the agent's rules file. No framework, no install.
+- [Blacksmith](https://github.com/hartforddavis-ai/blacksmith): Live. Builds a project from your prompt and checks each step against the frozen spec, so drift shows at step 3 instead of step 40. Runs locally, zero dependencies.
+- VibeValve: Coming soon. Makes an agent check its own fix, clause by clause, against what you asked, before you merge.
+- Gauge: Coming soon. Passes only checker-verified facts and stops every unproven claim. No dependencies.
+
+## Facts
+
+- Name: Shearpin, also "The Shearpin Process"
+- Category: developer tool, AI code verification, AI coding agent guardrails
+- Price: free
+- Licence: open source
+- Install: none required
+- Publisher: Crucible Labs, Wapengo NSW, Australia
+- Contact: thecruciblelabs@gmail.com
+
+## Why the name
+
+A shear pin is the part in a machine calibrated to give first, in one known place,
+so the machinery downstream comes through clean. Each Shearpin tool sits at the
+joint where an unproven claim would otherwise reach your code.

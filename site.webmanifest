@@ -1,0 +1,11 @@
+{
+  "name": "The Shearpin Process",
+  "short_name": "Shearpin",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#050710",
+  "theme_color": "#050710",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
