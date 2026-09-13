@@ -27,4 +27,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://shearpin.dev/sitemap.xml
+Sitemap: https://thecruciblelabs.netlify.app/brass-ai-axioms/sitemap.xml

@@ -70,21 +70,22 @@ Family marker `◆` stays, for cohesion. Shearpin's own favicon is the pin itsel
 a vertical bar, broken across the middle, the two halves offset — a pin that has
 sheared. Drawn in `--ash` on transparent. `assets/favicon.svg`.
 
-## Hero figure
+## Ground plate
 
-`assets/hero-pin.svg` — a machined shear pin in elevation, driving a joint (the
-vertical `--steel` line). Plain dowel, flat ends, end-face lines. Fractured
-**square at the joint**, not on a diagonal — a diagonal is a tensile failure, a
-shear pin breaks flat. A dashed ghost shows the driving half on its original
-axis; the solid half has sheared and dropped off it. Broken centreline, one
-dimension line. Thin `--ash` strokes, no fill, no perspective, large margin. The
-only image on the page.
+No hero figure — Scott's call: drop the illustration entirely, keep only the
+atmosphere. `assets/ground.webp` (converted from a 1.9MB PNG, ~120KB) sits as a
+fixed full-bleed background via `body::before`, with a `body::after` scrim
+(radial + linear gradient, bottom-weighted) holding the column's contrast over
+it. No `object-position`/mask-stop tuning the old vector-hero warning below
+was written against — there's no foreground image to position, just a texture
+behind the text.
 
-## Durable warning
+## Durable warning — superseded
 
-Crucible's layout is tuned to *its* photo through magic numbers. Shearpin's hero
-is vector and self-contained, so it carries none of that `object-position` /
-mask-stop / intro-reserve fragility — a raster hero would bring it all back.
+The prior warning argued a raster *hero figure* would reintroduce Crucible's
+`object-position`/mask-stop/intro-reserve fragility. Moot now: there is no
+hero figure, raster or vector, to position. The ground plate is a plain
+`cover`-fit background with no per-image magic numbers to maintain.
 
 It has a **different** fragility: the drawing is fine-lined and reads only with
 width. At the page's full ~900px it lands; below roughly 560px effective width it
