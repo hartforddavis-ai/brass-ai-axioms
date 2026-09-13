@@ -11,10 +11,10 @@ No install. Free and open source.
 
 ## The four tools
 
-- [The Axioms](https://github.com/hartforddavis-ai/brass-ai-axioms): Live. Three rules an agent cannot drift past, pad past, or fake past. One paste into the agent's rules file. No framework, no install.
-- [Blacksmith](https://github.com/hartforddavis-ai/blacksmith): Live. Builds a project from your prompt and checks each step against the frozen spec, so drift shows at step 3 instead of step 40. Runs locally, zero dependencies.
-- VibeValve: Coming soon. Makes an agent check its own fix, clause by clause, against what you asked, before you merge.
-- Gauge: Coming soon. Passes only checker-verified facts and stops every unproven claim. No dependencies.
+- [The Axioms](https://github.com/hartforddavis-ai/brass-ai-axioms): Live. A 30-line rules file for CLAUDE.md/.cursorrules/AGENTS.md — makes the agent prove a change works before calling itself done, stops over-building, makes it own up to what broke. One paste, no install.
+- [Blacksmith](https://github.com/hartforddavis-ai/blacksmith): Live. Runs your build step-by-step against the original spec, so drift shows at step 3 instead of buried in 40 files of changes. Runs locally, zero dependencies.
+- VibeValve: Coming soon. Makes the agent re-check its own bug fix against what you asked for, clause by clause, before you hit merge.
+- Gauge: Coming soon. Fact-checks every claim the agent makes about its own output — unverifiable claims don't pass.
 
 ## Facts
 

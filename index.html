@@ -44,10 +44,10 @@
       "name": "The four Brass AI Axioms tools",
       "numberOfItems": 4,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "item": { "@type": "SoftwareSourceCode", "name": "The Axioms", "description": "Three rules an AI coding agent cannot drift past, pad past, or fake past. One paste into Cursor, Claude Code or Copilot. No install.", "codeRepository": "https://github.com/hartforddavis-ai/brass-ai-axioms", "isAccessibleForFree": true } },
-        { "@type": "ListItem", "position": 2, "item": { "@type": "SoftwareSourceCode", "name": "Blacksmith", "description": "Builds a project from your prompt and checks each step against the frozen spec, so drift shows at step 3 instead of step 40. Runs locally.", "codeRepository": "https://github.com/hartforddavis-ai/blacksmith", "isAccessibleForFree": true } },
-        { "@type": "ListItem", "position": 3, "item": { "@type": "SoftwareApplication", "name": "VibeValve", "applicationCategory": "DeveloperApplication", "description": "Makes an AI coding agent check its own fix, clause by clause, against what you asked, before you merge." } },
-        { "@type": "ListItem", "position": 4, "item": { "@type": "SoftwareApplication", "name": "Gauge", "applicationCategory": "DeveloperApplication", "description": "Passes only checker-verified facts and stops every unproven claim. No dependencies." } }
+        { "@type": "ListItem", "position": 1, "item": { "@type": "SoftwareSourceCode", "name": "The Axioms", "description": "A 30-line rules file for CLAUDE.md, .cursorrules, or AGENTS.md. Makes your agent prove a change works before it calls itself done, stops it over-building, and makes it own up to what broke. One paste, no install.", "codeRepository": "https://github.com/hartforddavis-ai/brass-ai-axioms", "isAccessibleForFree": true } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "SoftwareSourceCode", "name": "Blacksmith", "description": "Runs your build step-by-step against the original spec, so agent drift shows at step 3 instead of buried in 40 files of changes. Runs locally.", "codeRepository": "https://github.com/hartforddavis-ai/blacksmith", "isAccessibleForFree": true } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "SoftwareApplication", "name": "VibeValve", "applicationCategory": "DeveloperApplication", "description": "Makes the agent re-check its own bug fix against what you actually asked for, clause by clause, before you hit merge." } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "SoftwareApplication", "name": "Gauge", "applicationCategory": "DeveloperApplication", "description": "Fact-checks every claim your agent makes about its own output. If it can't verify a claim, Gauge doesn't pass it." } }
       ]
     },
     {
@@ -193,32 +193,32 @@
     <div class="kicker">Brass AI Axioms</div>
     <hr class="rule">
 
-    <h1>The point an AI build stops running true to your design.</h1>
+    <h1>Where your AI coding agent's "done" stops meaning done.</h1>
 
-    <p class="say"><strong>Near enough</strong> leaves the bench. Then something lets go under load. <strong>The Shearpin Process</strong> is the method behind these four tools: check the agent's output against the order that produced it, every time, before it ships.</p>
+    <p class="say">Your agent says done. The code's almost right, so it ships &mdash; then something breaks in prod that "done" should've caught. These four free tools (<strong>the Shearpin Process</strong>) check what the agent actually built against what you actually asked for, at every stage, before you merge.</p>
 
     <ul class="works">
 
       <li><a class="work" href="https://github.com/hartforddavis-ai/brass-ai-axioms" target="_blank" rel="noopener">
-        <span class="name">The Axioms <span class="tag">In steam</span></span>
-        <span class="line">Three axioms the AI can't drift past, pad past, or counterfeit. Riveted in one pass.</span>
+        <span class="name">The Axioms <span class="tag">Live</span></span>
+        <span class="line">A 30-line rules file &mdash; paste into <code>CLAUDE.md</code>, <code>.cursorrules</code>, or <code>AGENTS.md</code>. Makes your agent prove a change works before it calls itself done, stops it over-building, and makes it own up to what broke.</span>
         <span class="go">GitHub &rarr;</span>
       </a></li>
 
       <li><a class="work" href="https://github.com/hartforddavis-ai/blacksmith" target="_blank" rel="noopener">
-        <span class="name">Blacksmith <span class="tag">In steam</span></span>
-        <span class="line">Forges the build from your order, every step riveted to the design &mdash; a wandering link shows at step 3, not step 40.</span>
+        <span class="name">Blacksmith <span class="tag">Live</span></span>
+        <span class="line">Runs the build step-by-step against your original spec, so if the agent drifts off-task you catch it at step 3, not buried in 40 files of "done."</span>
         <span class="go">GitHub &rarr;</span>
       </a></li>
 
       <li><div class="work">
-        <span class="name">VibeValve <span class="tag">On the bench</span></span>
-        <span class="line">Holds the engine's own repair against your order, clause by clause, before it clears the gate.</span>
+        <span class="name">VibeValve <span class="tag">Coming soon</span></span>
+        <span class="line">Makes the agent re-check its own bug fix against what you actually asked for, clause by clause, before you hit merge.</span>
       </div></li>
 
       <li><div class="work">
-        <span class="name">Gauge <span class="tag">On the bench</span></span>
-        <span class="line">Trusts no claim the AI makes &mdash; measures each one itself, passes only what holds.</span>
+        <span class="name">Gauge <span class="tag">Coming soon</span></span>
+        <span class="line">Fact-checks every claim your agent makes about its own output &mdash; if it can't verify a claim, Gauge doesn't pass it.</span>
       </div></li>
 
     </ul>
