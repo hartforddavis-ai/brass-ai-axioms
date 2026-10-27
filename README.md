@@ -29,7 +29,7 @@ evidence:
   t1_apply_the_rules: paste the rules into a fresh chat, three made-up items with known right answers. Claude, Grok, DeepSeek 3/3 first try. ChatGPT and Gemini: first reply empty or hung (delivery, not wrong answers); second fresh chat 3/3 each. Probe not shown to tell a model that reads the rules from one that guesses well.
   t2_bound_vs_unbound: four questions, rules attached or not. Two questions voided (both arms gave the same answer). On the other two, one real split: rules attached rejected the premise on all four AIs (Axiom III); without rules all four gave a rollout plan. The fourth was a trap that both versions approved by design.
   t3_done_without_running: same broken code with and without Axiom II, DeepSeek Instant, ChatGPT, Gemini Flash-Lite, Grok Fast. 4 of 4 shipped it unrun without the rule and refused with it; one invented a run result without it.
-  limits: free-tier default modes; chat AIs that cannot run code; one item or bug per test; earlier wording of Axiom II (before LAST PASS); an early "just fix it" prompt did not hold
+  limits: free-tier default modes; chat AIs that cannot run code; one item or bug per test; Axiom II tested as v1.0 (t1, t2) and v1.2 (t3, includes LAST PASS), current v1.3 not retested; t3 told the AIs they had run nothing; an early "just fix it" prompt did not hold
   published_record: VibeValve/transcripts/RESULTS_v2.md (t3 only; t1 and t2 are in the author's research notes, not yet published)
 tradeoffs:
   - more refusals and reverts, by design
@@ -100,13 +100,16 @@ Three tests so far, on the free versions of ChatGPT, Gemini, DeepSeek and Grok
    them out. On the one that mattered, all four AIs with the rules rejected the
    plan outright ("the design is the defect"), and all four without them handed
    back a workable rollout plan. One question, one split.
-3. **Does it stop a false "done"?** We gave four AIs the same broken code. Without
+3. **Does it stop a false "done"?** We gave four AIs the same broken code and told each it had run nothing. Without
    the Build rule all four said ship it, and one made up a run result. With it,
    all four refused and said nothing had been run. Full record:
    [`VibeValve/transcripts/RESULTS_v2.md`](VibeValve/transcripts/RESULTS_v2.md).
 
 What this does not show: one bug or one question per test, chat AIs that can't
-run code, free tiers only, and an earlier wording of the Build rule. A plain
+run code, free tiers only, and the current wording. Tests 1 and 2 used Build
+rule version 1.0 and test 3 used version 1.2; the current 1.3 has not been
+retested. The AIs in test 3 were told they had run nothing, so it shows the rule
+changes what they do with that fact, not that they notice it unprompted. A plain
 "just fix it" prompt did not hold; the rule worked when the AI was told to check
 its own fix against each line. Tests 1 and 2 are in the author's research notes
 and are not published here yet.
