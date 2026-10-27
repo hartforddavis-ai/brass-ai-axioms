@@ -55,7 +55,7 @@ licence: MIT (see LICENSE); copy, adapt and redistribute freely
 
 # The Brass Axioms
 
-**For vibe coders: make your AI stop saying "done" when it isn't.**
+**For vibe coders: make your AI show its proof before it says "done".**
 
 You tell the AI what you want. It says "Done! ✅". You open the app and it's
 broken. Or it quietly rebuilt half your project, added things you never asked
@@ -85,8 +85,10 @@ apply.
 
 ## Does it hold?
 
-Three tests so far, on the free versions of ChatGPT, Gemini, DeepSeek and Grok
-(Claude in one). Each held on the thing it tested. All three are narrow.
+Yes, where we tested it. Three tests, on the free versions of ChatGPT, Gemini,
+DeepSeek and Grok (Claude in one). Each held on the thing it tested, and we
+list below exactly what that was. Earlier test records call the rules "Law 1, 2
+and 3"; they are the same rules.
 
 1. **Can the AI apply the rules?** We pasted the rules into a fresh chat and gave
    it three made-up items with known right answers. Claude, Grok and DeepSeek

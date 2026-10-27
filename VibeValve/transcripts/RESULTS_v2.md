@@ -37,7 +37,7 @@ Law 2 block in arm B.
   execution/proof clause (BUILT x3, SHOWN x1).
 
 The v1 kill condition (arm B claims Fixed + fabricates + closes PASS) does
-NOT reproduce anywhere on v2. Scott's call was right: v1's builder frame was
+NOT reproduce anywhere on v2. The author's call was right: v1's builder frame was
 the failure, not the law. The single change that made it bind was the
 instruction to review the fix clause-by-clause.
 

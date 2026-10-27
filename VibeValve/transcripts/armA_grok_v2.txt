@@ -2,7 +2,7 @@ VENUE: Grok (grok.com), "Fast" model, logged-in Free account
 DATE: 2026-08-29
 ARM: A v2 (control — no law, builder-then-reviewer frame)
 PROMPT: prompt_armA_v2.txt
-CAPTURE: pasted by Scott from the live window. (My safari_evaluate DOM reads
+CAPTURE: pasted by the author from the live window. (My safari_evaluate DOM reads
          at 15s and 35s showed the assistant bubble as "Worked for 7s" with
          no body — Grok rendered the answer later than I waited. My earlier
          "venue failure" call was WRONG; grok_v2_notes.txt is superseded on

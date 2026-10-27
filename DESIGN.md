@@ -72,7 +72,7 @@ sheared. Drawn in `--ash` on transparent. `assets/favicon.svg`.
 
 ## Ground plate
 
-No hero figure — Scott's call: drop the illustration entirely, keep only the
+No hero figure — the author's call: drop the illustration entirely, keep only the
 atmosphere. `assets/ground.webp` (converted from a 1.9MB PNG, ~120KB) sits as a
 fixed full-bleed background via `body::before`, with a `body::after` scrim
 (radial + linear gradient, bottom-weighted) holding the column's contrast over

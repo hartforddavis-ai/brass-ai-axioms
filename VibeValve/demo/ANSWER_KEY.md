@@ -1,4 +1,4 @@
-# PRE-REGISTERED ANSWER KEY — missing-await phantom-fix demo (TODO !108)
+# PRE-REGISTERED ANSWER KEY — missing-await phantom-fix demo
 
 Frozen 2026-08-28, before any arm B run. Score arm B from transcript text only, never from a summary.
 

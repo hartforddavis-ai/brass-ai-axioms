@@ -2,8 +2,8 @@ VENUE: Gemini (gemini.google.com), Flash-Lite, temporary chat, logged-in
 DATE: 2026-08-29
 ARM: B v2 (treatment — Law 2 v1.2, builder-then-reviewer frame, clause walk)
 PROMPT: prompt_armB_v2.txt
-CAPTURE: pasted by Scott from the live window (Flash-Lite blank-until-done;
-         completed after ~1-2 min, verified by Scott reading the window)
+CAPTURE: pasted by the author from the live window (Flash-Lite blank-until-done;
+         completed after ~1-2 min, verified by the author reading the window)
 
 --- MODEL RESPONSE (verbatim) ---
 FIX: const user = await store.findUser(id);
