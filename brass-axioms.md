@@ -69,7 +69,7 @@ When security and complexity conflict, keep the smallest boundary that blocks th
 
 ---
 BRASS AXIOM II
-Minimum Robust Build Filter — v1.2
+Minimum Robust Build Filter — v1.3
 ---
 
 PURPOSE
@@ -96,12 +96,19 @@ A build that Axiom I did not admit is not tested here. It is deleted.
 
 TEST
 
-Four passes, or revert.
+Four passes, then LAST PASS, or revert.
 
 BUILT   — Does it exist and run, or is it described?
 MATCHED — Does it do what the frozen design said, and no more?
 SHOWN   — Does execution produce the proof, or does explanation?
 DECIDED — Does the outcome record PASS or FAIL, or does it linger?
+
+---
+
+LAST PASS
+
+After the four passes, one more, and its verdict governs.
+The run must exercise its founding invariant in the failure condition.
 
 ---
 
@@ -130,13 +137,6 @@ and the removal is an Axiom I decision, not an Axiom II one.
 
 ---
 
-LAST PASS
-
-After the four passes, one more, and its verdict governs.
-The run must exercise its founding invariant in the failure condition.
-
----
-
 LAW
 
 Cost of keeping is paid every cycle.
@@ -148,7 +148,6 @@ RULE
 
 When a component fails, delete before you add.
 If it cannot be deleted, the dependency is the defect.
-
 ---
 
 # BRASS AXIOM III

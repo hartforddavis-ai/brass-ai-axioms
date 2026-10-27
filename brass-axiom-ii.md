@@ -1,6 +1,6 @@
 ---
 BRASS AXIOM II
-Minimum Robust Build Filter — v1.2
+Minimum Robust Build Filter — v1.3
 ---
 
 PURPOSE
@@ -27,12 +27,19 @@ A build that Axiom I did not admit is not tested here. It is deleted.
 
 TEST
 
-Four passes, or revert.
+Four passes, then LAST PASS, or revert.
 
 BUILT   — Does it exist and run, or is it described?
 MATCHED — Does it do what the frozen design said, and no more?
 SHOWN   — Does execution produce the proof, or does explanation?
 DECIDED — Does the outcome record PASS or FAIL, or does it linger?
+
+---
+
+LAST PASS
+
+After the four passes, one more, and its verdict governs.
+The run must exercise its founding invariant in the failure condition.
 
 ---
 
@@ -58,13 +65,6 @@ A failed build is reverted to the last passing state.
 It is not patched in place.
 A second failure of the same build removes the design that produced it,
 and the removal is an Axiom I decision, not an Axiom II one.
-
----
-
-LAST PASS
-
-After the four passes, one more, and its verdict governs.
-The run must exercise its founding invariant in the failure condition.
 
 ---
 
